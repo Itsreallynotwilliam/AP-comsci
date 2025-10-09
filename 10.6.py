@@ -38,7 +38,7 @@ counter.goto(-270,-250)
 
 def change_size():
   sizebox = [3,5,2,10,8]
-  box.shapesize(sizebox[rand.randint(0,len(sizebox-1))])
+  box.shapesize(sizebox[rand.randint(0,4)])
 def countdown():
   global timer, timer_up
   counter.clear()
